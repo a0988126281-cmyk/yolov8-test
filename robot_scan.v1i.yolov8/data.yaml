@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+test: ../test/images
+
+nc: 1
+names: ['chocolate_jar']
+
+roboflow:
+  workspace: -0rk4o
+  project: robot_scan
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/-0rk4o/robot_scan/1

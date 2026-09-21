@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['TV', 'bed', 'chair', 'clock', 'console', 'door', 'fan', 'light', 'sofa', 'switchboard', 'table']
+
+roboflow:
+  workspace: -0rk4o
+  project: indoor-objects-3gtbo-q8ery
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/-0rk4o/indoor-objects-3gtbo-q8ery/1

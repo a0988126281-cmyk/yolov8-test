@@ -1,0 +1,15 @@
+# 虛擬環境
+venv/
+.venv/
+
+# AI 模型與訓練產出 (檔案太大，不傳到 Git)
+*.pt
+runs/
+
+# Python 快取與暫存檔
+__pycache__/
+*.pyc
+
+# 作業系統暫存檔
+.DS_Store
+Thumbs.db
