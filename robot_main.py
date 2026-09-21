@@ -65,8 +65,11 @@ model_world = YOLO("yolov8s-world.pt")
 world_classes = ["pillow", "tissue box", "glasses", "towel", "slippers", "trash can"]
 model_world.set_classes(world_classes)
 
-model_nutella = YOLO("runs/detect/train-2/weights/best.pt")
-model_indoor = YOLO("runs/detect/indoor_model/weights/best.pt")
+# 3. 客製化模型 1：Nutella 巧克力醬
+model_nutella = YOLO("nutella_best.pt")
+
+# 4. 客製化模型 2：房間物體模型
+model_indoor = YOLO("indoor_best.pt")
 
 print("✅ 所有 4 個視覺模型均已載入完畢！")
 
